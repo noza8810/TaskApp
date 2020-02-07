@@ -1,13 +1,23 @@
-h1{
+#top-page{
   font-size: 70px;
   padding-top: 60px;
   font-style: italic;
   font-weight: bold;
 }
 
-p{ 
+h2{
+  font-size: 40px;
+  padding-top: 50px;
+  color: black;
+}
+
+
+.sample{
+  position: relative;
+  bottom: 10px;
   font-size: 20px;
   text-align: center;
+
 }
 
 .button1{
