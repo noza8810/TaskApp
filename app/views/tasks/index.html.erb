@@ -15,14 +15,14 @@
       </tr>
     </thead>
     <tbody>
+      <% @tasks.each do |task| %>
       <tr>
-        <th>
-          <% @tasks.each do |task| %>
-            <%= @tasks.name %>
-          <% end %>
-        </th>
-        <th></th>
+        <td>
+          <%= task.name %>
+        </td>
+        <td></td>
       </tr>
+      <% end %>
     </tbody>
   </table>
 </div>
